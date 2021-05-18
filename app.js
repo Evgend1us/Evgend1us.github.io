@@ -19,7 +19,7 @@ function stopRotate(event) {
 }
 
 VANTA.WAVES({
-    el: "#cont",
+    el: "#back",
     mouseControls: false,
     touchControls: false,
     gyroControls: false,
@@ -27,7 +27,7 @@ VANTA.WAVES({
     minWidth: 200.00,
     scale: 1.00,
     scaleMobile: 1.00,
-    color: 0x570088,
+    color: 0x5f451d,
     shininess: 20.00,
     waveHeight: 20,
     waveSpeed: 0.5,
