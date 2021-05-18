@@ -22,6 +22,6 @@ body {
     height: 20vh;
     justify-content: space-around;
     align-items: flex-end;
-    color: rgb(255, 0, 0);
-    text-shadow: 10px 10px 10px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgb(39, 51, 0);
 }
