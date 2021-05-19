@@ -1,9 +1,11 @@
+// Карточки
 const cards = document.querySelectorAll('.card');
 
+// Цикл для того, чтобы любая карточка работала
 for (let i = 0; i < cards.length; i++) {
-    const card = cards[i];
-    card.addEventListener('mousemove', startRotate);
-    card.addEventListener('mouseout', stopRotate);
+    const card = cards[i];  //Выибраем какая карточка будет двигаться
+    card.addEventListener('mousemove', startRotate);    // Ловим момент наведения на карточку
+    card.addEventListener('mouseout', stopRotate);      // Ловим момент "отпускания" карточки
 }
 
 function startRotate(event) {
@@ -18,6 +20,8 @@ function stopRotate(event) {
     cardItem.style.transform = 'rotate(0)'
 }
 
+
+// Фон
 VANTA.WAVES({
     el: "#back",
     mouseControls: false,
@@ -33,3 +37,4 @@ VANTA.WAVES({
     waveSpeed: 0.5,
     zoom: 0.80
   })
+
